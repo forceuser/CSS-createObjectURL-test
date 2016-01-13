@@ -10,7 +10,7 @@ h1 {
 
 #withBackground {
 	background: red;
-	background-image: url('broken-mirror.jpg');
+	background-image: url('http://google.com/broken-mirror.jpg');
 	width: 150px;
 	height: 150px;
 	margin: 50px auto;
