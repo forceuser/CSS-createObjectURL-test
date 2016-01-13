@@ -36,7 +36,7 @@
 
             xhr.onload = function(e) {
               if (this.status == 200) {
-                var blob = new File([this.response], '//file.css',{type: 'text/css'});
+                var blob = new File([this.response], 'http://forceuser.github.io/CSS-createObjectURL-test/file.css',{type: 'text/css'});
                 var tempUrl = _URL.createObjectURL(blob);
 
                 sheet.setAttribute("href", tempUrl);
